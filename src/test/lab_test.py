@@ -11,7 +11,7 @@ class HelloWorldTest(unittest.TestCase):
         """
         Method sayHello() must return "Hello, World!". The strip method will remove any extra spaces or newlines at the end.
         """
-        expected = "Hello, world!"
+        expected = "Hello, World!"
         actual = self.hw.sayHello().strip()
         self.assertEqual(expected, actual)
 
